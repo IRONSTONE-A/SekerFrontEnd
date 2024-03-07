@@ -1,0 +1,71 @@
+#both{
+    display: flex;
+    gap: 15px;
+
+}
+#result{
+    height: 250px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#summary{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    text-align: left;
+
+}
+#sum{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#reaction{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-content: center;
+    color: red;
+    background-color: rgb(239, 228, 230);
+}
+#memory{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-content: center;
+    color: orange;
+    background-color: rgb(243, 243, 231);
+}
+#verbal{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-content: center;
+    color: green;
+    background-color: rgb(232, 239, 232);
+}
+#visual{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-content: center;
+    color: blue;
+    background-color: rgb(227, 227, 234);
+}
+#continue{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-content: center;
+    color: white;
+    background-color: black;
+}
