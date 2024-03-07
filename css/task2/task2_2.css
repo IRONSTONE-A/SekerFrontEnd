@@ -1,6 +1,10 @@
 #both{
     display: flex;
     gap: 15px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
 
 }
 #result{
