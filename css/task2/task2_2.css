@@ -16,7 +16,7 @@
 
 #summary{
     height: 250px;
-    width: 200px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -26,22 +26,28 @@
 }
 #sum{
     height: 30px;
-    width: 150px;
+    width: 200px;
     display: flex;    
     text-align: left;
     display: flex;
 }
 #reaction{
     height: 30px;
-    width: 150px;
+    width: 200px;
     display: flex;
-    align-content: center;
+    justify-content: space-between;
     color: red;
     background-color: rgb(239, 228, 230);
 }
+#num{
+    
+    color: black;
+    font-size: 16px;
+    align-items: center;
+}
 #memory{
     height: 30px;
-    width: 150px;
+    width: 200px;
     display: flex;
     align-content: center;
     color: orange;
@@ -49,7 +55,7 @@
 }
 #verbal{
     height: 30px;
-    width: 150px;
+    width: 200px;
     display: flex;
     align-content: center;
     color: green;
@@ -57,7 +63,7 @@
 }
 #visual{
     height: 30px;
-    width: 150px;
+    width: 200px;
     display: flex;
     align-content: center;
     color: blue;
@@ -65,7 +71,7 @@
 }
 #continue{
     height: 30px;
-    width: 150px;
+    width: 200px;
     display: flex;
     align-content: center;
     color: white;
