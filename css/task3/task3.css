@@ -1,0 +1,92 @@
+.all{
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 600px;
+    margin: 80px;
+    border: 2px solid white;
+}
+.head{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+.first{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(197, 194, 194);
+}
+.third{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(197, 194, 194);
+}
+.fifth{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(197, 194, 194);
+}
+.second{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(248, 244, 244);
+}
+.fourth{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(248, 244, 244);
+}
+.sixth{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(248, 244, 244);
+}
+.seventh{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+.last{
+    display: flex;
+    height: 60px;
+    width: 350px;
+    gap: 15px;
+    /* background-color: rgb(247, 131, 131); */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: end;
+    margin-left: 340px;
+    margin-top: 0%;
+}
+.shopping{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    height: 60px;
+    background-color: rgb(241, 123, 123);
+    align-items: center;
+    justify-content: end;
+    padding:  0px 5px;
+ 
+}
+.payment{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    height: 60px;
+    background-color: rgb(241, 123, 123);
+    align-items: center;
+    justify-content: end;
+    padding:  0px 5px;
+ 
+}
