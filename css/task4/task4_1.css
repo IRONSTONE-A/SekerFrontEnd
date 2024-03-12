@@ -1,0 +1,52 @@
+.title{
+    height: 100px;
+    width: 500px;    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    margin: -15px;
+}
+h1 span{
+    color: red;
+}
+.cap{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    align-items: center;
+}
+.information{
+    
+}
+.section{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.field{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: black;
+    
+}
+input, select{
+    height: 20px;
+    width: 470px;
+    font-size: 11px;
+}
+.radio{
+    color: white;
+    font-size: 13px;    
+}
+.circle{
+    color: white;
+    font-size: 13px;
+}
