@@ -38,22 +38,26 @@
         <select type="placeholder" id="seri" placeholder="Series" >
             <option value="ser">Series</option>
     </div>
-    <div class="checkbox">
-        <h5 class="ge">Movie Type</h5>
-           <input type="checkbox"> <label for="">Comedy</label>
-           <input type="checkbox"> <label for="">Action</label>
-           <input type="checkbox"> <label for="">Romance</label>
+    <div class="check" style="color: white;">        
+
+          <label class="movie" for="movieType">Movie Type</label>          
+          <label for="come">Comedy</label>
+          <input type="checkbox" id="come" name="mov" value="comedy" />          
+          <label for="act">Action</label>
+          <input type="checkbox" id="act" name="ac" value="action" />          
+          <label for="roman">Romance</label>
+          <input type="checkbox" id="roman" name="rom" value="romance" />
             
-    </div>
+    </div><br>
 
     <div class="radio">
-        <label class="gender" for="gen">Gender</label>
-          <input type="radio" id="mal" name="gender" value="male" />
-          <label for="mal">Male</label>
-          <input type="radio" id="fem" name="gender" value="female" /> 
-          <label for="fem">Female</label>
-          <input type="radio" id="ot" name="gender" value="other" />
-          <label for="ot">Other</label>
+        <div><label >Gender</label></div>
+          <div class="gender"><input type="radio" id="mal" name="gender" value="male" />
+          <label for="mal">Male</label></div>
+          <div class="gender"><input type="radio" id="fem" name="gender" value="female" /> 
+          <label for="fem">Female</label></div>
+          <div class="gender"><input type="radio" id="ot" name="gender" value="other" />
+          <label for="ot">Other</label></div>
           
     </div>
     <!-- <div><ul style="list-style: disc;" class="circle">Gender

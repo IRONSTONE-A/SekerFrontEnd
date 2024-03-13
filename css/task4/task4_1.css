@@ -1,6 +1,6 @@
 .title{
     height: 100px;
-    width: 500px;    
+    width: 450px;    
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -31,10 +31,10 @@ h1 span{
     margin-bottom: 10px;
 }
 .field{
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 450px;
     margin: auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7)
     
 }
 input, select{
@@ -45,8 +45,18 @@ input, select{
 .radio{
     color: white;
     font-size: 13px;    
+    height: 5%;
 }
-.circle{
+.check{
     color: white;
     font-size: 13px;
+}
+.gender{
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: row;
+    width: 50px; 
+
 }
