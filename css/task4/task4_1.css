@@ -31,7 +31,7 @@ h1 span{
     margin-bottom: 10px;
 }
 .field{
-    height: 600px;
+    height: 650px;
     width: 450px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.7)
@@ -59,4 +59,26 @@ input, select{
     align-items: row;
     width: 50px; 
 
+}
+.feedback{
+    color: black;
+    font-size: 13px;
+    height: 50px;
+    margin-top: 0px;
+    background-color: white;
+}
+.feed{
+    color: white;
+    margin-bottom: 0px;
+}
+.sub{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
