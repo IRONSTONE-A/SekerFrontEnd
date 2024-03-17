@@ -10,12 +10,14 @@ img{
     width: 300px;
 }
 .image-container:hover{
+    transition-delay: 2s;
     scale: 120%;
     transform: rotate(30deg);
-    animation-delay: 2s;
+    
     
 }
 img:hover{
+    transition-delay: 2s;
     scale: 80%;    
     animation-delay: 2s;
     
