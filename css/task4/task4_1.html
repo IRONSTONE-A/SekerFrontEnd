@@ -20,54 +20,55 @@
     <div class="information">
         <legend class="section">Name</legend>
         <label for="name" class="name"></label>
-        <input type="placeholder" id="name" placeholder="Enter your name" >
+        <input type="placeholder" id="name" name="" value="" placeholder="Enter your name" >
     </div><br>
     <div>
         <legend class="section">Age</legend>
-        <label for="name"></label>
-        <input type="placeholder" id="name" placeholder="Enter your age" >
+        <label for="name" value=""></label>
+        <input type="placeholder" value="" id="name" placeholder="Enter your age" >
     </div><br>
     <div>
         <legend class="section">Email</legend>
         <label for="name"></label>
-        <input type="placeholder" id="name" placeholder="Enter your email" >
+        <input type="placeholder" value="" id="name" placeholder="Enter your email" >
     </div><br>
     <div>
         <legend class="section">Content Type</legend>
         <label for="seri"></label>
         <select type="placeholder" id="seri" placeholder="Series" >
-            <option value="ser">Series</option>
+            <option value="">Series</option>
     </div>
     <div class="check" style="color: white;">        
 
-          <label class="movie" for="movieType">Movie Type</label>          
+          <label class="movie" for="movieType">Movie Type</label>       
+          <input type="checkbox" id="come" name="mov" value="comedy" />   
           <label for="come">Comedy</label>
-          <input type="checkbox" id="come" name="mov" value="comedy" />          
-          <label for="act">Action</label>
           <input type="checkbox" id="act" name="ac" value="action" />          
-          <label for="roman">Romance</label>
-          <input type="checkbox" id="roman" name="rom" value="romance" />
+          <label for="act">Action</label>
+          <input type="checkbox" id="roman" name="rom" value="romance" />          
+          <label for="roman">Romance</label>          
             
     </div><br>
 
     <div class="radio">
-        <div><label >Gender</label></div>
-          <div class="gender"><input type="radio" id="mal" name="gender" value="male" />
-          <label for="mal">Male</label></div>
-          <div class="gender"><input type="radio" id="fem" name="gender" value="female" /> 
-          <label for="fem">Female</label></div>
-          <div class="gender"><input type="radio" id="ot" name="gender" value="other" />
-          <label for="ot">Other</label></div>
+        <label >Gender</label></div>
+        <input type="radio" id="mal" name="gender" value="male" />
+        <label for="mal">Male</label></div>
+        <input type="radio" id="fem" name="gender" value="female" /> 
+        <label for="fem">Female</label></div>
+        <input type="radio" id="ot" name="gender" value="other" />
+        <label for="ot">Other</label></div>
           
     </div><br><br>
     <h5 class="feed">Feedback</h5>
     <fieldset class="feedback">
-        <p class="comment">Any comment</p>       
+        <textarea type="text" class="any">
+               
     
     </fieldset>
     <br><br>
 
-    <button type="submit" class="sub">SEND</button>
+    <button type="submit" class="sub" name="info" value="val">SEND</button>
     </form>
 </div>
 </body>
