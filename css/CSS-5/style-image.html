@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      body{
+          /*display: flex;*/
+          gap:20px
+      }
+      .wrapper{
+        width: 300px;
+        height: 300px;
+        background-color: rgba(0,128,0, 0.5);
+        color:white;
+      position: relative;
+
+       /* display: flex;
+        justify-content: center;
+        align-items: center;*/
+
+       /* text-align: center;
+        line-height: 300px; */
+
+
+
+
+
+        background-color: green;
+       opacity: 0.5 ;
+      }
+
+      .ortala{
+         /* position:absolute;
+          top:50%;
+          left: 50%;
+          transform: translate(-50%,-100%);*/
+          font-size: 2rem;
+
+          /*
+          writing-mode: vertical-lr;
+          writing-mode: vertical-rl;
+          writing-mode: vertical-lr;
+          writing-mode: horizontal-tb;*/
+
+         /* transform: rotate(270deg); */
+
+         /*word-wrap: break-word;*/
+
+         overflow: auto;
+         /*text-overflow: ellipsis;*/
+
+position: absolute;
+         top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+
+
+
+
+
+
+
+
+
+      }
+
+      .wrapper1{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(0,128,0, 0.5);
+          width: 300px;
+        height: 300px;
+      }
+
+      .man1{
+          filter:blur(5px)
+      }
+      .man2{
+          filter:grayscale(80%)
+      }
+
+      .man3{
+          filter:brightness(180%)
+      }
+
+      .man4{
+          filter:contrast(180%)
+      }
+
+      .man5{
+          filter: opacity(50%);
+      }
+
+      .man6{
+filter: drop-shadow(8px 8px 10px green );
+/*text-shadow: 8px 8px 10px green;*/
+/*box-shadow:8px 8px 10px green ;*/
+      }
+
+     /* invert, saturate, sepia, hue-rotate*/
+#img10{
+    -webkit-box-reflect: below 0px; /*left, below, above*/
+}
+
+#img10:hover{
+    transform: scaleX(-1);
+}
+
+#img30{
+   /* width: 200px;
+    height: 300px;*/
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+   /* object-position: 80% 100%;*/
+
+    object-fit: contain;
+    object-fit: fill;
+    object-fit: none;
+
+    object-fit: cover;
+    object-position: 10% 0%;
+   
+
+
+
+}
+     
+
+      
+    </style>
+  </head>
+  <body>
+     <!-- <div class="wrapper">
+        <p class="ortala">opacity</p>
+     <p class="ortala"> Lorem ipsumsdfdsgfdgdfgfdgfdgfdgfdgdfgdfg dolor sit amet. dgfdfdg dgdfgfdg buraya </p>
+   </div> -->
+
+   <!-- <div class="wrapper1">
+    <p class="ortala1">lor</p>
+   </div>  -->
+
+    <div class="man">
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man1" />
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man2" />
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man3" />
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man4" />
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man5" />
+      <img src="../../css4/classFile/images/python.svg" alt="" class="man6" />
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man7" />
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man8" />
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man9" />
+      <img src="../../css4/classFile/images/manzara.jpg" alt="" class="man10" />
+    </div>
+
+    <div >
+        <img  id="img10" src="../../css4/classFile/images/ceylanaslan.png" alt="" width="300px"> <br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <img id="img30" src="../../css4/classFile/images/36.jpg" alt="" width="400px">
+  </body>
+</html>

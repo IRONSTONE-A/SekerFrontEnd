@@ -1,0 +1,139 @@
+/* *{
+    margin: 0px;
+} */
+
+/* ? flex özelliği 2017 yılında eklenmiştir. */
+
+/* ******************************* */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    height: 100px;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.list{
+    display: flex;
+    gap:30px;
+    font-size: 20px;
+    color:azure;
+    list-style-type: none;
+}
+
+
+
+.list a{
+    color:azure;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ******************************* */
+.wrapper{
+   background-color: grey ;
+   height: 600px; 
+   /* width: 700px; */
+   width: 100vw;
+   margin:30px auto;
+   /* margin-left: -8px; */
+   /* padding:10px; */
+
+/*! display */
+   display: flex;
+
+/*! gap */
+
+    gap:5px;
+
+    /* ! wrap  default no-wrap*/
+
+    /* flex-wrap: wrap ; */
+
+
+
+
+/*! direction */
+   flex-direction: row;
+   flex-direction: row-reverse;
+   flex-direction: column;
+   flex-direction: column-reverse;
+   flex-direction: row;
+   /* flex-direction: column; */
+   /* flex-direction: row-reverse; */
+   
+
+/*! x ekseni */
+justify-content: start; /* left*/
+justify-content: end; /* right*/
+justify-content: center;
+
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+
+/*! y ekseni */
+/* tek sıralı yapılarda */
+align-items: stretch;
+align-items: center;
+align-items: start;
+align-items: end;
+align-items: center;
+
+
+/* cok sıralı yapılarda */
+/* align-content: center;
+align-content: end;
+align-content: space-between; */
+
+
+
+
+
+}
+
+.wrapper div{
+    background-color: brown;
+    font-size: 20px;
+    color:white;
+    width: 150px;
+    /* margin:10px */
+}
+
+#eleman1{
+    /* ! sadece eleman için y ekseninde hizalama */
+    align-self: start;
+
+    /* ! sıralama  default 0*/
+    order:2; /* default 0*/
+    background-color: blue;
+
+    /* ! büyüme katsayısı default 0 */
+    flex-grow:3 ;
+
+    /* ! küçülme katsayısı default 1 */
+    flex-shrink: 2;
+
+    /* ! basis */
+    /* ! flex */
+
+}
+
+#eleman3{
+   
+    order:3;
+    flex-grow:1 ;
+    /* flex-shrink: 0; */
+
+}
+
+
+
+

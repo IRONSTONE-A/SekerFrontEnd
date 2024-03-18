@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+        }
+
+    ul{
+list-style-type: none;
+background-color: #333;
+height: 60px;
+margin: 0;
+padding: 0;
+}
+
+li{
+    float:left;
+  }
+
+li a{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 14px  16px;
+
+}
+
+li a:hover{
+    background-color: red;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    background-color: aqua;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px  8px 16px rgba(0,0,0,0.2);
+   /* visibility: hidden;
+    visibility: visible;*/
+    display: none;
+   
+
+    
+}
+
+
+.dropdown-content a{
+    display: block;
+
+}
+
+.dropdown-content a:hover{
+    background-color: black;
+    color:white
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+
+
+
+     
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="./background.html">Home</a></li>
+        <li><a href="./dropdown.html">News</a></li>
+        <li class="dropdown"><a href="">About</a>
+            <div class="dropdown-content">
+                <a href="">Link1</a>
+                <a href="">link2</a>
+                <a href="">Link3</a>
+            </div>
+        </li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</body>
+</html>

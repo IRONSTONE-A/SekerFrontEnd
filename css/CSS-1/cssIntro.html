@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ali.css">
+    <style>
+        /*reset  0 point*/
+        /* ben bir yorumum */
+        
+        *{
+           margin: 0;
+           padding: 0;
+        }
+
+        /*tag name 1 point*/
+        h1{    
+            background-color: aqua;
+        }
+
+        /*class 10 point*/
+        .navbar{
+            background-color: aquamarine;
+            font-size: 40px;
+            margin:10px
+        }
+
+        /*id 100 point*/
+        #link1{
+            color:red
+        }
+
+        /*attrr 1 point*/
+        a[target ="_self"].link3{
+            color:yellow
+        }
+        a[href ="https://www.youtube.com/"].link3{
+            color:yellow
+        }
+        /*inline style 1000 point*/
+        /*important  1000+ point*/
+
+        #parag{
+            background-color: antiquewhite;
+        }
+
+        #parag:hover{
+            background-color: chartreuse;
+        }
+
+       #parag p{
+        color:blue
+       }
+
+       #parag p:nth-child(3){
+        color:red
+    }
+
+    p:first-child{
+        color:green 
+    }
+
+    .p1::after{
+        content: "merhaba";
+    }
+    .p1::before{
+        content: "merhaba";
+    }
+
+   
+
+    p > a{
+        background-color: blue;
+    }
+
+    div + p{
+        background-color: chocolate;
+    }
+
+    div ~ p{
+        background-color: green;
+    }
+
+ 
+
+    .deneme :not(p){
+        color:blue
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+        <!-- 
+--Simple selectors (select elements based on name, id, class) --- basit seçiciler
+--Combinator selectors (select elements based on a specific relationship between them) --- birleştirici seçiciler öğerleri aralarındaki belirli bir ilişkiye göre seçin
+--Pseudo-class selectors (select elements based on a certain state) sçzde sınıf seçiciler belirli bir duruma göre seçim yaparlar
+--Pseudo-elements selectors (select and style a part of an element) sözde öğe seçiciler bir öğenin bir parçasını seçin ve stillendirin
+--Attribute selectors (select elements based on an attribute or attribute value) öznitelik seçiciler bir özniteliğe veya öznitelik değerine göre işlem yapın
+
+     -->
+    <!-- class . , id # -->
+    <!-- nav -->
+    <div class="navbar">  <!-- nav -->
+        <a id="link1" href="https://www.youtube.com/" style="color:blue">Gmail</a>
+        <a href="#" target="_blank">Gmail</a>
+        <a href="#" target="_self" class="link3">Gmail</a>
+        <a href="3">Gmail</a>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, et.</p>
+    <!-- heaeder -->
+    <h1 class="navbar">Google</h1>
+    <div>
+        <input type="text" placeholder="google da arayın">
+    </div>
+    <div id="parag">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div >
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p class="p1">Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, porro?</p>
+
+    <p>
+        
+        <a href="">merhaba</a>
+        <a href="">merhaba</a>
+        <a href="">merhaba</a>
+        <a href="">merhaba</a>
+        <div><a href="">günaydın</a></div>
+    </p>
+
+    <div class="deneme">
+        <h3>baslkkjsdfsd</h3>
+        <p>lorem5</p>
+        <p>lorem5</p>
+        <h2>baslık</h2>
+        <p>lorem5</p>
+
+    </div>
+
+</body>
+</html>

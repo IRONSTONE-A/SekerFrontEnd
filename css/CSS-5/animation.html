@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            animation-name: ali;
+            animation-duration: 8s;
+            /*animation-delay: 5s;*/
+            position: relative;
+            animation-iteration-count: 1;
+            /*animation-direction: alternate;*/
+            
+            
+            animation-fill-mode:backwards;  /*tekrar ilk noktaya gider default değer*/
+            animation-fill-mode: forwards; /*en son noktada kalır*/
+        }
+
+        @keyframes ali{
+            from{
+                background-color: brown;
+                transform: rotate(0deg);
+            }
+            to{
+                background-color: green;
+                transform: rotate(360deg);
+                left:100px; top:200px;
+                width:500px;
+            }
+        }
+
+        @keyframes ornek{
+            0%{background-color: brown; left:0px; top:0px}
+            25%{background-color: green;left:200px; top:0px}
+            50%{background-color: red;left:200px; top:200px}
+           /* 75%{background-color: blue;left:0px; top:200px}
+            100%{background-color: brown;left:0px; top:0px}*/
+        }
+    </style>
+</head>
+<body>
+    <div class="div2">
+            Animasyon Training
+    </div>
+</body>
+</html>
