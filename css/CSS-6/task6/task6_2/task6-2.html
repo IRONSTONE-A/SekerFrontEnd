@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        .dropdown{
+            
+            background-color: orange;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 17px;
+            font-weight: 400;            
+           
+            display: inline-block;
+            position: absolute;
+            /* height: 900px;
+            width: 200px; */
+           
+        }
+        .title{
+            display: grid;
+            grid-template-columns: auto auto;
+            height: 30px;
+            
+            background-color: rgb(177, 109, 24);
+            margin: auto;
+            padding: 5px;
+            justify-content: space-between;
+            
+        }
+        .big{
+            height: 30px;
+            width: 40px;
+            color: white;
+            text-align: end;
+            
+            padding: 0;
+            background-color: rgb(177, 109, 24);
+           
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .second{
+            padding-inline-start: 20px;
+        }
+        .open{
+            height: 900px;
+            width: 40px;
+            background-color: orange;
+            display: block;
+        }
+        .open:hover {
+            display: none;
+        }
+        
+        
+    </style>
+</head>
+<body>
+   <div class="side">
+    <div class="open"> 
+    <ul >
+        <li class="big"> > </li>
+    </ul>
+    </div>
+    <div class="dropdown">
+    <ul >
+    <ul class="title">        
+        <li class="first">MENÜ</li>
+        <li class="first"> < </li>
+        </li>
+    </ul><br>
+        <ul class="down">
+        <li class="second">Ana Sayfa</li><br>
+        <li class="second">Ürünler</li><br>
+        <li class="second">Hakkımızda</li><br>
+        <li class="second">Blog</li><br>
+        <li class="second">İletişim</li>
+    </ul>
+    </ul>
+</div>
+</div>
+</body>
+</html>
