@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable</title>
+    <style>
+        :root{
+            --green:dodgerblue;
+            --metinColor: white;
+            --font : 20px;
+        }
+
+        body{
+            background-color: var(--green);
+        }
+
+        h2{
+            color:var(--metinColor)
+        }
+
+        button{
+            background-color: var(--metinColor);
+            color:var(--green)
+        }
+
+        p{
+            font-size: var(--font);
+            color:yellow
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, repellat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, repellat.</p>
+        <p>
+            <button>yes</button>
+            <button>no</button>
+
+        </p>
+    </div>
+</body>
+</html>
