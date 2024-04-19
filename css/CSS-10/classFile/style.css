@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  background-color: #30A7C3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+header div img {
+  width: 80px;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 10px;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li:hover {
+  text-decoration: underline;
+  color: white;
+}
+header nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+main .banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #CC6699;
+  padding: 1rem;
+  line-height: 2rem;
+  color: white;
+}
+main button {
+  padding: 0.5rem;
+  background-color: #30A7C3;
+  border-radius: 10px;
+  border: none;
+  width: 9rem;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+}
+main button:hover {
+  background-color: #FFC0CB;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
