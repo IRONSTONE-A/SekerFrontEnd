@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-main {
-  height: 100%;
-  width: 100;
-}
-
 .home {
   margin-top: 20px;
 }
@@ -40,7 +35,17 @@ a:hover {
 }
 
 .message {
-  height: 450px;
+  height: 1050px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.message1 {
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +68,7 @@ span {
 }
 
 .jobTitle {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .left {
@@ -84,6 +89,7 @@ span {
 .right1 {
   height: 20px;
   width: 20px;
+  transform: rotate(180);
 }
 
 .rightText {
@@ -98,9 +104,12 @@ span {
 .rightSection1 {
   display: flex;
   color: white;
+  font-weight: bolder;
+  transform: rotate(90deg);
 }
 
 .bottom {
+  height: 10px;
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -109,6 +118,8 @@ span {
 }
 
 .bottom1 {
+  height: 450px;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -118,7 +129,7 @@ span {
 
 .symbols1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .bio {
