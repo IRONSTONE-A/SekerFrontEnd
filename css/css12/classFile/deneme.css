@@ -1,0 +1,62 @@
+/* navbar */
+
+/* .navbar-nav{
+    margin-left: 280px;
+} */
+
+.navbar-light{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(59,59,59);
+
+
+}
+
+.navbar-light .nav-link:hover{
+    color: #BB2D3B;
+}
+
+/* carousel */
+
+.carousel-caption{
+    margin-bottom: 50px;
+}
+
+.carousel-title{
+    text-shadow: 2px 2px 2px black;
+}
+
+.carousel-caption p{
+    font-weight: 700;
+}
+
+.carousel-indicators button{
+    background-color: #BB2D3B !important;
+}
+
+/* ****************** */
+
+section#instructors .card{
+    transition: 1s;
+   
+}
+
+section#instructors .card:hover{
+    transform: scale(1.05);
+  
+}
+
+
+section#instructors .socials i{
+    transition: 1s;
+   
+}
+
+section#instructors .socials i:hover{
+   opacity: 0.5;
+   
+}
+
+
+
+
