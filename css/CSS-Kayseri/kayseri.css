@@ -280,6 +280,10 @@ input#name{
         width: 300px;
         height: 50%;
     }
+    .map2{
+        height: 350px;
+        width: 350px;
+    }
 }
 
 @media screen and (max-width : 768px){
