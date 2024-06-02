@@ -4,19 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container-fluid{
-    background-color: black
-    
+.navbar{
+    position: fixed;
+    width:100% ;
 }
-.navbar-brand{
-    color: white;
-}
+
 #navbarNav{
     display: flex;
     justify-content: end;
-}
-.nav-link{
-    color: white;
 }
 .firstPage{
     
@@ -32,29 +27,25 @@
 #secondText{
     text-align: center;
 }
+
 .bi{
     font-size: 9rem;
     color: red;
 }
-.clearfix{
-margin: 50px;
-}
+
 #social{
     font-size: 2rem;
     color: rgb(55, 55, 55);
 }
 .firms{
-    height: 150px;
-   
-    
+    height: 200px;    
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .logo{
     height: 80px;
-    width: 130px;;
-    
+    width: 130px;;    
 }
 .sixthPage{
     background: url(../img/back.jpg);
@@ -63,5 +54,27 @@ margin: 50px;
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* .six{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+   padding: 30px;
+} */
+#info{
+    height:50px;
+    width: 750px;
+}
+#floatingTextarea{
+    height: 210px;
+    width: 750px;
+}
+.bottom{
+    height: 150px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
