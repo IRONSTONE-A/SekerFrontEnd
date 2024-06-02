@@ -4,15 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
+/* .navbar{
     position: fixed;
     width:100% ;
-}
+} */
 
-#navbarNav{
+/* #navbarNav{
     display: flex;
     justify-content: end;
-}
+} */
 .firstPage{
     
     background-image: url(../img/banner.jpeg);
@@ -24,9 +24,9 @@
     font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
 }
-#secondText{
+/* #secondText{
     text-align: center;
-}
+} */
 
 .bi{
     font-size: 9rem;
