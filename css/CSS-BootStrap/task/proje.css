@@ -4,30 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .navbar{
-    position: fixed;
-    width:100% ;
-} */
 
-/* #navbarNav{
-    display: flex;
-    justify-content: end;
-} */
-.firstPage{
+#firstPage{
     
     background-image: url(../img/banner.jpeg);
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex;    
+    justify-content: center;   
     font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
-}
-/* #secondText{
-    text-align: center;
-} */
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
 
+}
+.portfolio-image{
+    object-fit: cover;
+}
 .bi{
     font-size: 9rem;
     color: red;
@@ -54,12 +47,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* .six{
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-   padding: 30px;
-} */
+
 #info{
     height:50px;
     width: 750px;
