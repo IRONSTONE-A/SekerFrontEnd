@@ -31,15 +31,9 @@
     color: rgb(55, 55, 55);
 }
 .firms{
-    height: 200px;    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 200px;         
 }
-.logo{
-    height: 80px;
-    width: 130px;;    
-}
+
 .sixthPage{
     background: url(../img/back.jpg);
     height: 100vh;
