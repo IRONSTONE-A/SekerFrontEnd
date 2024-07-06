@@ -1,6 +1,6 @@
 // console.log(window.document)
 
-//! declarasyon
+//! deklarasyon
 
 // var , let , const
 
