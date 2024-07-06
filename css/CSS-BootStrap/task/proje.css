@@ -4,58 +4,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container-fluid{
-    background-color: black
-    
-}
-.navbar-brand{
-    color: white;
-}
-#navbarNav{
-    display: flex;
-    justify-content: end;
-}
-.nav-link{
-    color: white;
-}
-.firstPage{
+
+#firstPage{
     
     background-image: url(../img/banner.jpeg);
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex;    
+    justify-content: center;   
     font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
 }
-#secondText{
-    text-align: center;
+.portfolio-image{
+    object-fit: cover;
 }
 .bi{
     font-size: 9rem;
     color: red;
 }
-.clearfix{
-margin: 50px;
-}
+
 #social{
     font-size: 2rem;
     color: rgb(55, 55, 55);
 }
 .firms{
-    height: 150px;
-   
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 200px;         
 }
-.logo{
-    height: 80px;
-    width: 130px;;
-    
-}
+
 .sixthPage{
     background: url(../img/back.jpg);
     height: 100vh;
@@ -63,5 +41,22 @@ margin: 50px;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#info{
+    height:50px;
+    width: 750px;
+}
+#floatingTextarea{
+    height: 210px;
+    width: 750px;
+}
+.bottom{
+    height: 150px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
